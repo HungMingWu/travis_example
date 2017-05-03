@@ -1,6 +1,6 @@
 language: cpp 
 compiler: gcc
 script:
-- make 
+- g++ main.cpp -o main 
 - ./main
 
